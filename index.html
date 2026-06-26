@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anjhela | Login</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="particles" aria-hidden="true">
+    <span class="particle particle-1"></span>
+    <span class="particle particle-2"></span>
+    <span class="particle particle-3"></span>
+    <span class="particle particle-4"></span>
+    <span class="particle particle-5"></span>
+    <span class="particle particle-6"></span>
+  </div>
+  <div class="page-shell">
+    <div class="panel login-panel">
+      <div class="brand">
+        <div class="brand-icon">
+          <span class="petal petal-1"></span>
+          <span class="petal petal-2"></span>
+          <span class="petal petal-3"></span>
+          <span class="petal petal-4"></span>
+          <span class="center-dot"></span>
+        </div>
+        <div>
+          <h1>Anjhela</h1>
+          <p>Bienvenida a tu espacio floral</p>
+        </div>
+      </div>
+      <div class="login-card">
+        <span class="version-badge">Versión 0.0.1</span>
+        <h2>Iniciar sesión</h2>
+        <p>Introduce tu usuario y contraseña para continuar.</p>
+        <form id="loginForm">
+          <label>
+            Usuario
+            <input type="text" id="username" placeholder="Ingresa tu usuario" autocomplete="username" required />
+          </label>
+          <label>
+            Contraseña
+            <input type="password" id="password" placeholder="Ingresa tu contraseña" autocomplete="current-password" required />
+          </label>
+          <button type="submit">Entrar</button>
+          <p class="error-message" id="errorMessage"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
